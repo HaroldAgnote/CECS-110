@@ -1,7 +1,7 @@
 body { background-color: #F5F5DC;
       color: #2E0000;
 	  font-family: Verdana, Arial, sans-serif;
-	    background-image: url(javabackground.gif);
+	    background-image: url(images/javabackground.gif);
 }
 #wrapper { width: 80%;
            margin-left: auto;
@@ -15,7 +15,7 @@ header { background-color: #D2B48C;
 }
 h1 {  font-family: Georgia, "Times New Roman", serif;
 height: 100px;
-    background-image: url(javalogo.gif);
+    background-image: url(images/javalogo.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	text-indent: -9999px;
@@ -50,9 +50,9 @@ h2 {  font-family: Georgia, "Times New Roman", serif;  }
 h3 {  background-color: #E6D6A9;
      text-transform: uppercase; }
 dt { font-weight: bold; }
-main ul { list-style-image: url(marker.gif);
+main ul { list-style-image: url(images/marker.gif);
         list-style-position: inside; }
-#hero { background-image: url(heroroad.jpg);
+#hero { background-image: url(images/heroroad.jpg);
            height: 300px;
 		   background-repeat: no-repeat;
 		   background-size: 100% 100%;
