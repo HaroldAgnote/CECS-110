@@ -1,0 +1,111 @@
+body
+{
+    background-color: #003366;
+    background-repeat: no-repeat;
+    color: #006600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFCC;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px 3px #FFFFFF;
+}
+header
+{
+    background-image: url(images/primelogo.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    padding-top: 15px;
+}
+h1
+{
+    font-weight: bold;
+}
+h2
+{
+    font-weight: bold;
+}
+nav
+{
+    font-weight: bold;
+    float: left;
+    width: 160px;
+    padding: 20px;
+    padding-left: 40px;
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+nav a
+{
+    text-decoration: none;
+}
+nav a:link
+{
+    color: #003366;
+}
+nav a:visited
+{
+    color: #006600;
+}
+nav a:hover
+{
+    color: #09F;
+}
+main
+{
+    margin-left: 190px;
+    padding: 1px 20px 20px 30px;
+    display: block;
+}
+main div
+{
+    overflow: auto;
+}
+dd
+{
+    font-style: italic;
+    font-size: .90em;
+    line-height: 200%;
+}
+.properties
+{
+    padding-right: 25px;
+    float: left;
+}
+main nav
+{
+    margin-top: 20px;
+    font-size: 60%;
+    padding: 0px;
+}
+main nav ul
+{
+    text-decoration: underline;
+    min-width: 220px;
+    margin-bottom: 0px;
+}
+main nav li
+{
+    display: inline;
+    padding-right: 6px;
+}
+footer
+{
+    margin-left: 220px;
+    font-size: 75%;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", serif;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
