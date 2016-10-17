@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="CSULB FTP">
+    <serverData>
+      <paths name="CSULB FTP">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/htdocs/cecs110" local="$PROJECT_DIR$" web="~hagnote/cecs110/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
