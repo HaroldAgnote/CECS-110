@@ -1,0 +1,113 @@
+body
+{
+
+}
+#wrapper
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+    max-width: 2048px;
+}
+header
+{
+    text-align: center;
+}
+h1
+{
+
+}
+nav
+{
+    float: left;
+    width: 180px;
+    border: 3px solid #000000;
+}
+nav ul
+{
+    
+}
+nav a:link
+{
+
+}
+nav a:visited
+{
+
+}
+nav a:hover
+{
+
+}
+main
+{
+    margin-left: 220px;
+}
+main ul
+{
+
+}
+footer
+{
+    margin-top: 20px;
+
+    margin-left: 220px;
+    height: 100px;
+    border: 3px solid #000000;
+}
+
+#dailypic
+{
+    clear: left;
+    float: left;
+    margin-top: 30px;
+    padding-top: 20px;
+    height: 240px;
+    width: 180px;
+    border: 3px solid #000000;
+}
+
+#pagename
+{
+    border: 3px solid #000000;
+}
+#animalpicture
+{
+    margin-top: 20px;
+    height: 200px;
+    border: 3px solid #000000;
+}
+
+#relatedlinks
+{
+    clear: left;
+    float: left;
+    margin-top: 30px;
+    padding-top: 20px;
+    height: 240px;
+    width: 180px;
+    border: 3px solid #000000;
+}
+
+#websiteinfo
+{
+    margin-top: 20px;
+
+    border: 3px solid #000000;
+}
+
+#form
+{
+    margin-top: 20px;
+    height: 500px;
+    border: 3px solid #000000;
+}
+
+
+#gallery
+{
+    margin-top: 20px;
+    border: 3px solid #000000;
+    height: 240px;
+}
