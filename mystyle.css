@@ -2,6 +2,7 @@ body
 {
     background-color: #F2E9E1;
     background-image: linear-gradient(to bottom, #FFFFFF, #1C140D);
+    font-family: 'Audiowide', 'cursive';
 }
 #wrapper
 {
@@ -28,50 +29,44 @@ header
     background-position: center;
     height: 300px;
 }
-h1
+h2
 {
-
+    text-align: center;
 }
-nav
-{
-    font-family: 'Audiowide', 'cursive';
-    font-size: 120%;
-
-}
-nav a
+a
 {
     text-decoration: none;
     text-align: center;
 }
-nav ul
+ul
 {
-
+    padding: 0;
 }
-nav li
+li
 {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
-    margin-top: 5px;
-    padding: 25px;
+    padding: 10px;
     text-align: center;
 }
-nav a:link, nav a:visited
+a:link, a:visited
 {
+    padding: 5px;
     background-color: #E0E4CC;
     background-image: linear-gradient(to bottom, #FFFFFF, #F2E9E1 );
 }
 
-nav a:hover
+a:hover
 {
-
+    background-color: #000000;
+    background-image: none;
+    color: #FFFFFF;
+    transition: color, background-color, 2s ease;
 }
-main
-{
 
-}
-main ul
+#importantstuff h2
 {
-
+    text-align: left;
 }
 footer
 {
