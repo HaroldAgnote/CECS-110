@@ -35,11 +35,20 @@
 
             <main> <!---Main Framework--->
                 <div id = "pagename">
-                    <h2>Page Name</h2>
+                    <h1>Comments</h1>
                 </div>
                 <div id = "animalpicture">Animal Picture</div>
 
-                <div id = "form"><Form>Form</Form></div>
+                <div id = "form">
+                    <form action="commentconfirm.php" method="post">
+                        <label for="name">Name</label>
+                        <input type = "text" name = "name" id = "name"> <br> <br>
+                        <label for="comment">Comments</label> <br>
+                        <textarea name="comment" id="comment" cols="40" rows = "20" placeholder="Enter Comments" required = "required"></textarea>
+                        <input type = "submit" value = "Submit">
+
+                    </form>
+                </div>
 
             </main> <!---End Main Framework--->
 

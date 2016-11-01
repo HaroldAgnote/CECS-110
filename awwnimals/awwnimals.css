@@ -98,6 +98,28 @@ main ul
 {
 
 }
+form label
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+form input[type="text"]
+{
+    margin-left: 20px;
+}
+form textarea
+{
+    margin-top: 20px;
+    display: block;
+    margin-left: 20px;
+}
+form input[type="submit"]
+{
+    margin-left: 30px;
+    margin-top: 30px;
+}
 footer
 {
     margin-top: 20px;
