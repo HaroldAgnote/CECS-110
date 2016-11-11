@@ -5,6 +5,18 @@
         <meta charset = "utf-8">
         <link rel = "stylesheet" href = "awwnimals.css">
         <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $("#formInfo").hide();
+                $("#submitButton").click((function () {
+                    $("#userName").text("Name - " + $("#name").val().toString());
+                    $("#userComment").text("Comment - " + $("#comment").val().toString());
+                    $("#formInfo").show();
+                }));
+            });
+        </script>
     </head>
 
     <body>
@@ -40,14 +52,18 @@
                 <div id = "animalpicture">Animal Picture</div>
 
                 <div id = "form">
-                    <form action="commentconfirm.php" method="post">
                         <label for="name">Name</label>
                         <input type = "text" name = "name" id = "name"> <br> <br>
                         <label for="comment">Comments</label> <br>
                         <textarea name="comment" id="comment" cols="40" rows = "20" placeholder="Enter Comments" required = "required"></textarea>
-                        <input type = "submit" value = "Submit">
+                        <input type = "submit" value = "Submit" id = "submitButton">
 
-                    </form>
+                    <div id = "formInfo">
+                        <p>Your name is</p>
+                        <span id = "userName">DUMMY</span>
+                        <p>Here is your comment</p>
+                        <p id = "userComment">COMMENTCOMMENTCOMMENT</p>
+                    </div>
                 </div>
 
             </main> <!---End Main Framework--->

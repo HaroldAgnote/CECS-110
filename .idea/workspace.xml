@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="37c3856a-a91c-446b-b6e6-d8956e3ee6ec" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awwnimals/animals.html" afterPath="$PROJECT_DIR$/awwnimals/animals.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awwnimals/awwnimals.css" afterPath="$PROJECT_DIR$/awwnimals/awwnimals.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awwnimals/comments.html" afterPath="$PROJECT_DIR$/awwnimals/comments.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awwnimals/index.html" afterPath="$PROJECT_DIR$/awwnimals/index.html" />
     </list>
     <ignored path="CECS-110.iws" />
@@ -44,9 +44,11 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/awwnimals/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
-                  <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
-                  <folding />
+                <state relative-caret-position="242">
+                  <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#1274#1280#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -54,8 +56,8 @@
           <file leaf-file-name="animals.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/awwnimals/animals.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="66">
-                  <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                <state relative-caret-position="770">
+                  <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -94,9 +96,12 @@
           <file leaf-file-name="comments.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/awwnimals/comments.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1166">
-                  <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="308">
+                  <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+                  <folding>
+                    <marker date="1478812754610" expanded="true" signature="439:786" ph="{...}" />
+                    <marker date="1478812754610" expanded="true" signature="749:769" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -108,8 +113,8 @@
           <file leaf-file-name="awwnimals.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/awwnimals/awwnimals.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1034">
-                  <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+                <state relative-caret-position="296">
+                  <caret line="216" column="9" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -151,11 +156,11 @@
         <option value="$PROJECT_DIR$/mystyle.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/awwnimals/commentconfirm.php" />
-        <option value="$PROJECT_DIR$/awwnimals/comments.html" />
         <option value="$PROJECT_DIR$/awwnimals/dogs.html" />
-        <option value="$PROJECT_DIR$/awwnimals/awwnimals.css" />
         <option value="$PROJECT_DIR$/awwnimals/animals.html" />
         <option value="$PROJECT_DIR$/awwnimals/index.html" />
+        <option value="$PROJECT_DIR$/awwnimals/awwnimals.css" />
+        <option value="$PROJECT_DIR$/awwnimals/comments.html" />
       </list>
     </option>
   </component>
@@ -214,16 +219,16 @@
     <property name="SearchEverywhereHistoryKey" value="media/pac&#9;FILE&#9;file://D:/Documents/git/CECS-110/chapter11/media/PacificTrailsResort.mp4" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\git\CECS-110\chapter11\placeholder" />
+      <recent name="D:\Documents\git\CECS-110\webproject" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\git\CECS-110\chapter11" />
       <recent name="D:\Documents\git\CECS-110" />
       <recent name="D:\Documents\git\CECS-110\webproject" />
       <recent name="D:\Documents\git\CECS-110\webproject\webproject" />
       <recent name="D:\Documents\git\CECS-110\template" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Documents\git\CECS-110\chapter11\placeholder" />
-      <recent name="D:\Documents\git\CECS-110\webproject" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -234,17 +239,6 @@
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -321,20 +315,25 @@
       <workItem from="1478611021160" duration="1415000" />
       <workItem from="1478637150791" duration="15000" />
       <workItem from="1478637181553" duration="2861000" />
+      <workItem from="1478699429332" duration="601000" />
+      <workItem from="1478788463405" duration="1953000" />
+      <workItem from="1478810290263" duration="32000" />
+      <workItem from="1478810326835" duration="662000" />
+      <workItem from="1478811009942" duration="2629000" />
+      <workItem from="1478838728454" duration="1000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81572000" />
+    <option name="totallyTimeSpent" value="87462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.104166664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -348,6 +347,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31354168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -699,14 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awwnimals/comments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/awwnimals/bunnies.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -723,14 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awwnimals/awwnimals.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -741,22 +725,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/awwnimals/animals.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="770">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awwnimals/comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <marker date="1478812754610" expanded="true" signature="439:786" ph="{...}" />
+            <marker date="1478812754610" expanded="true" signature="749:769" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/awwnimals/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+        <state relative-caret-position="242">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+          <folding>
+            <element signature="e#1274#1280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awwnimals/awwnimals.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="216" column="9" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="webServersAuthStorage">
-    <data>AAAAsI8Tp7xcCF4v9wCxnIQgAStmoRaeF4iWsIXe75uPYn1MUxjg8HvSc2U7EH/sOGxPdu0CapESQeM0RUmQw1uhBlQ0lUgZKFf8QwBnRhkNx4omAIYE1DKvyDiyOtV45sAcAIrpNFP/hglOWW3nmBM5rE4xXDvVpN6z7V9NIniSUGSEOK51BDrn5s/r4dYdnw+CLyX1gMz6tj5l8hqD5TzxaU139314o/og2o1n2n84XuWntVsar5CsEU2uqPQodFWJbw==</data>
+    <data>AAAAsE8Kqh8V9dNt9bFLsZbi3mdFr2mj4jbLB9AQ6W2u5DSs0ZfBNEYUsc9BTAMxW4M/r4SyZ9kbxyqm1zEi7vA1edtJgnRxUZzINjxVa1W7vTKa018uZ5YfkaM+0Cc2oWn+D0i09mjlrfk1yCixrqgkfoERsNGrN5+0USrI9jj0iBxNopKqNurzRTFghlGqHfSatTtO8yN8FIw/y0j+334YiAGFvNdkCB60mZ8vD4uwroiFfFhGV+V5H2i8g12WXC9hvw==</data>
   </component>
 </project>
