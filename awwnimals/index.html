@@ -1,88 +1,207 @@
 <!doctype html>
-<html lang = "en">
-    <head>
-        <title>Website Title</title>
-        <meta charset = "utf-8">
-        <link rel = "stylesheet" href = "awwnimals.css">
-        <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+<html lang="en">
+<head>
+    <title>Website Title</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/awwnimals.css">
+</head>
 
-    </head>
+<body>
+<div class="navbar-wrapper">
+    <div class="container">
 
-    <body>
-        <div id = "wrapper"> <!---Wrapper--->
-            <div id = "backgroundpuppy"></div>
-            <header> <!---Header--->
-                <h1>
-                    Today is
-                </h1>
-
-                <p id = "date">
-                </p>
-                <script>
-                    var d = new Date();
-                    document.getElementById("date").innerHTML = d.toDateString();
-                </script>
-            </header> <!---End Header--->
-
-            <nav> <!---Navigation Links--->
-                <ul>
-                    <li><a href = "index.html">Home</a></li>
-                    <li id = "animalsTab">&nbsp;Animals</li>
-                    <ul id = "animalsPanel">
-                        <li><a href = "dogs.html">Dogs</a></li>
-                        <li><a href = "cats.html">Cats</a></li>
-                        <li><a href = "bunnies.html">Bunnies</a></li>
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                            aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Awwnimals</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html"><span class = "glyphicon glyphicon-star"></span>Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">Animals<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="dogs.html">Dogs</a></li>
+                                <li><a href="cats.html">Cats</a></li>
+                                <li><a href="bunnies.html">Bunnies</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="comments.html">Comments</a></li>
                     </ul>
-                    <li><a href = "comments.html">Comments</a></li>
-                </ul>
-            </nav> <!---End Navigation Links--->
-
-            <div id = "dailypic">
-                Daily Picture
-            </div>
-
-            <div id = "relatedlinks">
-                <h2>
-                    Related Links
-                </h2>
-                <ul>
-                    <li><a href = "http://www.reddit.com/r/aww" target="_blank">Reddit.com/r/aww</a></li>
-                </ul>
-            </div>
-
-            <main> <!---Main Framework--->
-                <div id = "pagename">
-                    <h2>Page Name</h2>
+                    <div class = navbar-right>
+                        <button data-toggle="collapse" data-target="#dailypicture"><span class="glyphicon glyphicon-picture"></span> Daily Picture</button>
+                    </div>
                 </div>
-                <div id = "animalpicture">Animal Picture</div>
-                <div id = "websiteinfo">Lorem ipsum dolor sit amet, at est invidunt argumentum, qui autem nemore suavitate at, duo sumo etiam id. Ubique vivendum evertitur est no, vel accusamus elaboraret ut. Omittam accumsan ut pri, offendit dignissim et vim. Esse minim ei per, noster instructior pro an, modus putent at vix.
-                                        No vix nulla quando concludaturque, in vix alterum fierent intellegam. In elit definitiones mea, pro an eligendi lucilius pertinacia. Vero nostro iuvaret eu has, eos te nibh quas persius, qui liber efficiendi dissentiet id. Quo et erat blandit, vim at mollis facilisis, cu dolore urbanitas persequeris per.
-                                        Et his nihil detracto, no sit esse natum vocent. Incorrupte scripserit disputationi eam cu, ei pro mazim soleat platonem. Vix euripidis intellegat an. Pro ut augue zril necessitatibus, ex erant cetero evertitur per. Ullum dolorum mentitum mel ex, eu nihil urbanitas vel. Quo in mundi regione.
-                                        Eam et democritum adipiscing, nec cu omittam intellegebat. Nec audire partiendo imperdiet id, nam in justo epicuri scaevola, duo ancillae instructior ne. Omnium ornatus maluisset eam ad. Altera corrumpit id nam, te similique necessitatibus eos, nihil mediocrem argumentum pro ex.
-                                        Amet quas noluisse sit eu. Ne antiopam consequat usu. Eam habemus sadipscing contentiones ut, aliquando mediocritatem nec ex. Veniam postea democritum eu ius, et noluisse placerat quo. Scripta bonorum suscipiantur eos ut, laboramus liberavisse sit et, reque postulant qui ut. Possim scripta expetenda has cu, eu tollit eligendi voluptua pri. Mutat sententiae dissentiet sit cu, eu sed volumus senserit, soleat constituam omittantur mel eu.
-                                        Duis munere abhorreant ius in, cu ignota debitis pri. Cu aperiri verterem persequeris eos, ex qui assum latine ullamcorper. Id falli delicata expetendis nec, ad qui quis elitr theophrastus. Pri etiam labores abhorreant no, sint semper offendit cum ad. Labore possim eum cu, sea malis adipisci nominati te, laoreet praesent adolescens cu duo.
-                                        Postea dictas numquam mei id, ut duo erant dissentias, eros veritus at mea. Te vis amet appetere liberavisse. Vidit detraxit cu qui. Stet persius detracto ex mea, eos an tacimates definiebas posidonium, est harum oporteat tractatos et. An sea sale equidem aliquando.
-                                        Ad est aliquip petentium sapientem, mel detracto epicurei te. Sed ut vivendo dolores tacimates, eos verear persequeris ei, cu appetere similique vix. Duo dico fuisset ne. Justo nostro eirmod an sit. Soluta oportere no has, ipsum labores no sit.
-                                        Vel perfecto intellegat suscipiantur at. Ut pro persius legimus, soluta voluptua assueverit te pro. Quod menandri ne vix. Case rebum accusamus ea sea. Mea an inani omnesque, vix an causae commune.
-                                        Usu prima augue officiis ne, graecis fabellas similique no mel. Elit legendos comprehensam et pro. Dolores efficiantur eu sed, cibo albucius has eu, eum ex suavitate scribentur. No iracundia posidonium nam, reque accumsan gloriatur eum cu, pri id porro alienum. No nam stet ubique reformidans, epicuri voluptaria consetetur sea eu, mel in cibo partem antiopam.
+
+            </div>
+        </nav>
+
+    </div>
+</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img class="first-slide" src="images/buddies.jpg" alt="First slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Example headline.</h1>
+                    <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous"
+                        Glyphicon buttons on the left and right might not load/display properly due to web browser
+                        security rules.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
                 </div>
-            </main> <!---End Main Framework--->
+            </div>
+        </div>
+        <div class="item">
+            <img class="second-slide"
+                 src="images/cats/catlove.jpg"
+                 alt="Second slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img class="third-slide"
+                 src="images/bunnies/threebunnies.jpg"
+                 alt="Third slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>One more for good measure.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div><!-- /.carousel -->
+
+<div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="img-circle"
+                 src="images/dogs/dogCircle.jpg"
+                 alt="Generic placeholder image" width="140" height="140">
+            <h2>Dogs</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                cursus magna.</p>
+            <p><a class="btn btn-default" href="dogs.html" role="button">Bark! &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-circle"
+                 src="images/cats/cat.jpg"
+                 alt="Generic placeholder image" width="140" height="140">
+            <h2>Cats</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
+                mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                condimentum nibh.</p>
+            <p><a class="btn btn-default" href="cats.html" role="button">Meow &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-circle"
+                 src="images/bunnies/bunnycircle.jpg"
+                 alt="Generic placeholder image" width="140" height="140">
+            <h2>Bunnies</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
+                porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-default" href="bunnies.html" role="button">-scrunch- &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
 
 
+    <hr class="featurette-divider">
 
-            <footer>  <!---Footer--->
-                Footer
-            </footer> <!---End Footer--->
-        </div>  <!---End Wrapper--->
-        <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/dailypic.js"></script>
-        <script>
-            $(document).ready(function()
-            {
-                $("#animalsTab").click((function () {
-                    $("#animalsPanel").slideToggle("slow");
-                }));
-            });
-        </script>
-    </body>
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="images/dogandcat.jpg" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" src="images/rabbitanddog.jpg" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="images/cat-dog-rabbit.jpg" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+</div><!-- /.container -->
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/dailypic.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#animalsTab").click((function () {
+                $("#animalsPanel").slideToggle("slow");
+            }));
+        });
+    </script>
+</body>
 </html>
