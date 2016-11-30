@@ -23,5 +23,5 @@ picture.setAttribute("src", picurl);
 picture.setAttribute("width", "175");
 picture.setAttribute("height", "175");
 picture.setAttribute("alt", "Here's a cute animal");
-var dailypicdiv = document.getElementById("dailypicture");
+var dailypicdiv = document.getElementById("dailypic");
 dailypicdiv.appendChild(picture);

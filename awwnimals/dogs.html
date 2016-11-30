@@ -3,114 +3,68 @@
     <head>
         <title>Website Title</title>
         <meta charset = "utf-8">
-        <link rel = "stylesheet" href = "awwnimals.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel = "stylesheet" href = "css/home.css">
+        <link rel = "stylesheet" href = "css/basic.css">
         <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
     </head>
 
     <body>
-        <div id = "wrapper"> <!---Wrapper--->
-            <header> <!---Header--->
-                <h1>
-                </h1>
-            </header> <!---End Header--->
-
-            <nav> <!---Navigation Links--->
-                <ul>
-                    <li><a href = "index.html">Home</a></li>
-                    <li><a href = "animals.html">Animals</a>
-                        <ul>
-                            <li><a href = "dogs.html">Dogs</a></li>
-                            <li><a href = "cats.html">Cats</a></li>
-                            <li><a href = "bunnies.html">Bunnies</a></li>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Animals<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class = "active"><a href="dogs.html">Dogs</a></li>
+                            <li><a href="cats.html">Cats</a></li>
+                            <li><a href="bunnies.html">Bunnies</a></li>
                         </ul>
                     </li>
-
-                    <li><a href = "comments.html">Comments</a></li>
+                    <li><a href="comments.html">Comments</a></li>
                 </ul>
-            </nav> <!---End Navigation Links--->
+            </div>
+        </div>
+    </nav>
 
-            <div id = "dailypic">Daily pic</div>
+    <div class="container-fluid text-center">
+        <div class="row content">
+            <div class="col-sm-2 sidenav">
+                <p><a href="#">Link</a></p>
+                <p><a href="#">Link</a></p>
+                <p><a href="#">Link</a></p>
+            </div>
+            <div class="col-sm-8 text-left">
+                <h1>Welcome</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <hr>
+                <h3>Test</h3>
+                <p>Lorem ipsum...</p>
+            </div>
+            <div class="col-sm-2 sidenav">
+                <div id = "dailypic">Daily pic</div>
+            </div>
+        </div>
+    </div>
 
-            <div id = "relatedlinks">Related Links</div>
-
-            <main> <!---Main Framework--->
-                <div id = "pagename">
-                    <h2>Page Name</h2>
-                </div>
-                <div id = "animalpicture">Animal Picture</div>
-                <div id = "websiteinfo">Lorem ipsum dolor sit amet, at est invidunt argumentum, qui autem nemore suavitate at, duo sumo etiam id. Ubique vivendum evertitur est no, vel accusamus elaboraret ut. Omittam accumsan ut pri, offendit dignissim et vim. Esse minim ei per, noster instructior pro an, modus putent at vix.
-                                        No vix nulla quando concludaturque, in vix alterum fierent intellegam. In elit definitiones mea, pro an eligendi lucilius pertinacia. Vero nostro iuvaret eu has, eos te nibh quas persius, qui liber efficiendi dissentiet id. Quo et erat blandit, vim at mollis facilisis, cu dolore urbanitas persequeris per.
-                                        Et his nihil detracto, no sit esse natum vocent. Incorrupte scripserit disputationi eam cu, ei pro mazim soleat platonem. Vix euripidis intellegat an. Pro ut augue zril necessitatibus, ex erant cetero evertitur per. Ullum dolorum mentitum mel ex, eu nihil urbanitas vel. Quo in mundi regione.
-                                        Eam et democritum adipiscing, nec cu omittam intellegebat. Nec audire partiendo imperdiet id, nam in justo epicuri scaevola, duo ancillae instructior ne. Omnium ornatus maluisset eam ad. Altera corrumpit id nam, te similique necessitatibus eos, nihil mediocrem argumentum pro ex.
-                </div>
-                <div id = "gallery">
-                    <figure>
-                            <img src = "images/cutepuppy.jpg" width="150" height="150" alt=" Cute Puppy">
-                    </figure>
-                    <ul>
-                        <li><a href = "images/dogs/shoppingcart.jpg">
-                            <img src="images/dogs/shoppingcartthumb.jpg"
-                                 alt = "Shopping Cart Dog">
-                            <span><img src="images/dogs/shoppingcart.jpg"
-                                       alt = "Shopping Cart Dog"><br>Shopping Cart Dog
-                            </span>
-                        </a>
-                        </li>
-                        <li>
-                            <a href = "images/dogs/stairs.jpg">
-                                <img src = "images/dogs/stairsthumb.jpg"
-                                     alt = "Dog on stairs">
-                                <span><img src="images/dogs/stairs.jpg"
-                                           alt = "Dog on stairs"><br>Just sitting right here
-                            </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href = "images/dogs/ball.jpg">
-                                <img src = "images/dogs/ballthumb.jpg"
-                                     alt = "Dog holding a ball">
-                                <span><img src="images/dogs/ball.jpg"
-                                           alt = "Dog holding a ball"><br>Play Ball!
-                            </span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href = "images/dogs/panda.jpg">
-                                <img src = "images/dogs/pandathumb.jpg"
-                                     alt = "Dog that looks like a Panda">
-                                <span><img src="images/dogs/panda.jpg"
-                                           alt = "Dog that looks like a Panda"><br>Is that a Panda?
-                            </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href = "images/dogs/pinecone.jpg">
-                                <img src = "images/dogs/pineconethumb.jpg"
-                                     alt = "Dog holding a Pinecone">
-                                <span><img src="images/dogs/pinecone.jpg"
-                                           alt = "Dog holding a Pinecone"><br>Just try to take that Pinecone
-                            </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href = "images/dogs/flowers.jpg">
-                                <img src = "images/dogs/flowersthumb.jpg"
-                                     alt = "Dog in Field of Flowers">
-                                <span><img src="images/dogs/flowers.jpg"
-                                           alt = "Dog in Field of Flowers"><br>Smells Lovely
-                            </span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </main> <!---End Main Framework--->
-
-
-
-            <footer>  <!---Footer--->
-                Footer
-            </footer> <!---End Footer--->
+    <footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer>
         </div>  <!---End Wrapper--->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/dailypic.js"></script>
     </body>
 </html>
