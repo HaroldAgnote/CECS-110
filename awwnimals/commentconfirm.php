@@ -1,69 +1,106 @@
-#!/usr/local/php5/bin/php-cgi
+#!/usr/local/php5/bin/php
 <!doctype html>
 <html lang = "en">
 <head>
     <title>Website Title</title>
     <meta charset = "utf-8">
-    <link rel = "stylesheet" href = "awwnimals.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel = "stylesheet" href = "css/home.css">
+    <link rel = "stylesheet" href = "css/basic.css">
     <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
 </head>
 
 <body>
-<div id = "wrapper"> <!---Wrapper--->
-    <header> <!---Header--->
-        <h1>
-        </h1>
-    </header> <!---End Header--->
-
-    <nav> <!---Navigation Links--->
-        <ul>
-            <li><a href = "index.html">Home</a></li>
-            <li><a href = "about.html">Animals</a>
-                <ul>
-                    <li><a href = "dogs.html">Dogs</a></li>
-                    <li><a href = "cats.html">Cats</a></li>
-                    <li><a href = "bunnies.html">Bunnies</a></li>
-                </ul>
-            </li>
-
-            <li><a href = "comments.html">Comments</a></li>
-        </ul>
-    </nav> <!---End Navigation Links--->
-
-    <div id = "dailypic">Daily pic</div>
-
-    <div id = "relatedlinks">Related Links</div>
-
-    <main> <!---Main Framework--->
-        <div id = "pagename">
-            <h1>Comments</h1>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Logo</a>
         </div>
-        <div id = "animalpicture">Animal Picture</div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-haspopup="true" aria-expanded="false">Animals<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a class="submenu" tabindex="-1" href="#">Pets<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="dogs.html">Dogs</a></li>
+                                <li><a href="cats.html">Cats</a></li>
+                                <li><a href="#">Birds</a></li>
+                                <li><a href="#">Hamsters/Gerbils</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="submenu" tabindex="-1" href="#">Farm Animals<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bunnies.html">Bunnies</a></li>
+                                <li><a href="#">Sheep</a></li>
+                                <li><a href="#">Placeholder</a></li>
+                                <li><a href="#">Placeholder</a></li>
+                            </ul>
+                        </li>
 
-        <div id = "comment">
+                    </ul>
+                </li>
+                <li><a href="comments.html"><span class = "glyphicon glyphicon-star"></span>&nbsp;Comments</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-            <p>
-                Thank you, &nbsp;
-                <?php
-                    echo $_POST["name"];
-                ?>
-            </p>
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+            <p><a href="#">Link</a></p>
+            <p><a href="#">Link</a></p>
+            <p><a href="#">Link</a></p>
+        </div>
+        <div class="col-sm-8 text-left">
+            <div class="page-header text-center">
+                <h1>Comments</h1>
+                <div class="text-left">
+                    <h3>
+                        Thank you,
+                        <?php
+                            echo $_POST["name"];
+                        ?>
+                        !
+                    </h3>
+                    <p>
+                        <h4>Here's your comment:</h4> <br>
+                        <?php
+                            echo $_POST["comment"];
+                        ?>
+                    </p>
+                </div>
+            </div>
 
-            <p>
-                Here is your comment: <br>
-                <?php
-                    echo $_POST["comment"];
-                ?>
-            </p>
         </div>
 
-    </main> <!---End Main Framework--->
+        <div class="col-sm-2 sidenav">
+            <div id = "dailypic">Daily pic</div>
+        </div>
 
+    </div>
 
+</div>
+</div>
 
-    <footer>  <!---Footer--->
-        Footer
-    </footer> <!---End Footer--->
+<footer class="container-fluid text-center">
+    <p>Footer Text</p>
+</footer>
 </div>  <!---End Wrapper--->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/dailypic.js"></script>
+<script src="js/menus.js"></script>
 </body>
 </html>
