@@ -23,14 +23,30 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="about.html"><span class = "glyphicon glyphicon-star"></span>&nbsp;About</a></li>
+                <li><a href="about.html"><span class = "glyphicon glyphicon-star"></span>&nbsp;About</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                        aria-haspopup="true" aria-expanded="false">Animals<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="dogs.html">Dogs</a></li>
-                        <li><a href="cats.html">Cats</a></li>
-                        <li><a href="bunnies.html">Bunnies</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="submenu" tabindex="-1" href="#">Pets<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="dogs.html">Dogs</a></li>
+                                <li><a href="cats.html">Cats</a></li>
+                                <li><a href="#">Birds</a></li>
+                                <li><a href="#">Hamsters/Gerbils</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="submenu" tabindex="-1" href="#">Farm Animals<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bunnies.html">Bunnies</a></li>
+                                <li><a href="#">Sheep</a></li>
+                                <li><a href="#">Placeholder</a></li>
+                                <li><a href="#">Placeholder</a></li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </li>
                 <li><a href="comments.html">Comments</a></li>

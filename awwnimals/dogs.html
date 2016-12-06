@@ -24,13 +24,29 @@
             <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li class="dropdown, active">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                        aria-haspopup="true" aria-expanded="false"><span class = "glyphicon glyphicon-star"></span>&nbsp;Animals<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li class="active"><a href="dogs.html"><span class = "glyphicon glyphicon-star"></span>&nbsp;Dogs</a></li>
-                        <li><a href="cats.html">Cats</a></li>
-                        <li><a href="bunnies.html">Bunnies</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="submenu" tabindex="-1" href="#"><span class = "glyphicon glyphicon-star"></span>&nbsp;Pets<span class="caret"></span></a>
+                            <ul class="dropdown-menu active">
+                                <li class="active"><a href="dogs.html"><span class = "glyphicon glyphicon-star"></span>&nbsp;Dogs</a></li>
+                                <li><a href="cats.html">Cats</a></li>
+                                <li><a href="#">Birds</a></li>
+                                <li><a href="#">Hamsters/Gerbils</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="submenu" tabindex="-1" href="#">Farm Animals<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bunnies.html">Bunnies</a></li>
+                                <li><a href="#">Sheep</a></li>
+                                <li><a href="#">Placeholder</a></li>
+                                <li><a href="#">Placeholder</a></li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </li>
                 <li><a href="comments.html">Comments</a></li>
@@ -111,5 +127,6 @@
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/dailypic.js"></script>
+<script src="js/menus.js"></script>
 </body>
 </html>
