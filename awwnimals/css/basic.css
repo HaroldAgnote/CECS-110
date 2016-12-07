@@ -1,59 +1,81 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-    background-color: #EBEFC9;
+.navbar
+{
+    margin-bottom    : 0;
+    border-radius    : 0;
+    background-color : #EBEFC9;
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 450px}
+.row.content
+{
+    height : 450px
+}
 
 .thumbnail
 {
-    background-color: #EBEFC9;
+    background-color : #EBEFC9;
 }
 
 .btn, .btn:hover, .btn:active, .btn:focus
 {
-    background-color: #E6D6A9;
-    color: #0F0F0F;
+    background-color : #E6D6A9;
+    color            : #0F0F0F;
 }
 
 .input-group
 {
-    padding-bottom: 20px;
+    padding-bottom : 20px;
 }
 
 .input-group-addon
 {
-    background-color: #EBEFC9;
-    border: none;
+    background-color : #EBEFC9;
+    border           : none;
 }
 
 .imageGallery
 {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width        : 80%;
+    margin-left  : auto;
+    margin-right : auto;
 }
 
 /* Set gray background color and 100% height */
-.sidenav {
-    padding-top: 20px;
-    height: 100%;
+.sidenav
+{
+    padding-top : 20px;
+    height      : 100%;
 }
 
-/* Set black background color, white text and some padding */
-footer {
-    color: white;
-    padding: 15px;
+.videoList
+{
+    text-align : center;
+    display    : block;
+    margin     : 50px 20px;
+}
+
+.videoList iframe
+{
+    padding-bottom : 50px;
+}
+
+#playArea
+{
+    margin-top: 50px;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
-@media screen and (max-width: 767px) {
-    .sidenav {
-        height: auto;
-        padding: 15px;
+@media screen and (max-width : 767px)
+{
+    .sidenav
+    {
+        height  : auto;
+        padding : 15px;
     }
-    .row.content {height:auto;}
+
+    .row.content
+    {
+        height : auto;
+    }
 }
