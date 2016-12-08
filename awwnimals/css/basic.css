@@ -60,6 +60,11 @@
     padding-bottom : 50px;
 }
 
+.playPicture
+{
+    display: none;
+}
+
 #playArea
 {
     margin-top: 50px;

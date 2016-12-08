@@ -1,8 +1,8 @@
-#!/usr/local/php5/bin/php
+#!/usr/local/php5/bin/php-cgi
 <!doctype html>
 <html lang = "en">
 <head>
-    <title>Website Title</title>
+    <title>Awwnimals - Comments</title>
     <meta charset = "utf-8">
     <link href = "css/bootstrap.min.css" rel = "stylesheet">
     <link rel = "stylesheet" href = "css/home.css">
@@ -34,7 +34,6 @@
                             <ul class = "dropdown-menu">
                                 <li><a href = "dogs.html">Dogs</a></li>
                                 <li><a href = "cats.html">Cats</a></li>
-                                <li><a href = "#">Birds</a></li>
                                 <li><a href = "#">Hamsters/Gerbils</a></li>
                             </ul>
                         </li>
@@ -44,15 +43,29 @@
                             <ul class = "dropdown-menu">
                                 <li><a href = "bunnies.html">Bunnies</a></li>
                                 <li><a href = "#">Sheep</a></li>
-                                <li><a href = "#">Placeholder</a></li>
-                                <li><a href = "#">Placeholder</a></li>
+                                <li><a href = "#">Horses</a></li>
+                                <li><a href = "#">Cows</a></li>
                             </ul>
                         </li>
+                        <li class = "dropdown-submenu">
+                            <a class = "submenu" tabindex = "-1" href = "#">Wild Animals<span
+                                    class = "caret"></span></a>
+                            <ul class = "dropdown-menu">
+                                <li><a href = "bunnies.html">Bunnies</a></li>
+                                <li><a href = "#">Foxes</a></li>
+                                <li><a href = "#">Lions/Tigers</a></li>
+                                <li><a href = "#">Red Pandas</a></li>
+                            </ul>
+                        </li>
+                        <li><a href = "#">Miscellaneous</a></li>
 
                     </ul>
                 </li>
                 <li class = "active"><a href = "comments.html"><span class = "glyphicon glyphicon-star"></span>&nbsp;Comments</a>
                 </li>
+            </ul>
+            <ul class = "nav navbar-nav navbar-right">
+                <li><a href = "petPlay.html">Play with a Pet</a></li>
             </ul>
         </div>
     </div>
@@ -102,14 +115,12 @@
     </div>
 
 </div>
-</div>
 
 <!-- FOOTER -->
 <footer>
     <p class = "pull-right"><a href = "#">Back to top</a></p>
     <p>&copy; 2016 Aww-nimals Inc &middot; <a href = "mailto:contact@awwnimals.com">contact@awwnimals.com</a> </p>
 </footer>
-</div>  <!---End Wrapper--->
 <script src = "js/jquery-3.1.1.min.js"></script>
 <script src = "js/bootstrap.min.js"></script>
 <script src = "js/dailypic.js"></script>

@@ -53,7 +53,7 @@
                                 <li><a href = "bunnies.html">Bunnies</a></li>
                                 <li><a href = "#">Foxes</a></li>
                                 <li><a href = "#">Lions/Tigers</a></li>
-                                <li><a href = "#">Koala</a></li>
+                                <li><a href = "#">Red Pandas</a></li>
                             </ul>
                         </li>
                         <li><a href = "#">Miscellaneous</a></li>
@@ -85,17 +85,19 @@
                     <h3>
                         Play with your own Animal.
                     </h3>
-                    <label>Favorite Animal : &nbsp; </label>
+                    <label>Choose your Animal : &nbsp; </label>
 
-                    <label class = "radio-inline"><input type = "radio" name = "favAnimal" value = "Dog">Dog</label>
-                    <label class = "radio-inline"><input type = "radio" name = "favAnimal" value = "Cat">Cat</label>
-                    <label class = "radio-inline"><input type = "radio" name = "favAnimal" value = "Bunny">Bunny</label>
+                    <label class = "radio-inline"><input type = "radio" name = "favAnimal" value = "dog">Dog</label>
+                    <label class = "radio-inline"><input type = "radio" name = "favAnimal" value = "cat">Cat</label>
+                    <label class = "radio-inline"><input type = "radio" name = "favAnimal" value = "bunny">Bunny</label>
                     <br>
                     <input type = "button" name = "playButton" id = "playButton" value = "Play!">
+                    <input type = "button" name = "feedButton" id = "feedButton" value = "Feed!">
+                    <input type = "button" name = "cleanButton" id = "cleanButton" value = "Clean!">
 
                 </div>
 
-                <div id="playArea">
+                <div id="area">
 
                 </div>
 
@@ -113,13 +115,15 @@
     <!-- FOOTER -->
     <footer class="container-fluid text-center">
         <p class = "pull-right"><a href = "#">Back to top</a></p>
-        <p>&copy; 2016 Aww-nimals Inc &middot; <a href = "mailto:contact@awwnimals.com">contact@awwnimals.com</a> </p>
+        <p class="text-center" id = "todaysDate"></p>
+        <p class="pull-left">&copy; 2016 Aww-nimals Inc &middot; <a href = "mailto:contact@awwnimals.com">contact@awwnimals.com</a> </p>
     </footer>
 </div>  <!---End Wrapper--->
 <script src = "js/jquery-3.1.1.min.js"></script>
 <script src = "js/bootstrap.min.js"></script>
 <script src = "js/dailypic.js"></script>
 <script src = "js/menus.js"></script>
-<script src="js/play.js"></script>
+<script src="js/date.js"></script>
+<script src = "js/play.js"></script>
 </body>
 </html>

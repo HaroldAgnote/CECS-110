@@ -5,7 +5,7 @@
       <webServer id="3231caeb-4aa7-426a-a456-8f5aac725f07" name="CSULB FTP" url="http://web.csulb.edu/">
         <fileTransfer host="ftp.csulb.edu" port="21" rootFolder="/home/aj/hagnote">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions controlEncoding="US-ASCII" dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
