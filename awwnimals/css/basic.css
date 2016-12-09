@@ -12,6 +12,11 @@
     height : 450px
 }
 
+.normalList li
+{
+    padding-bottom : 10px;
+}
+
 .thumbnail
 {
     background-color : #EBEFC9;
@@ -48,26 +53,22 @@
     height      : 100%;
 }
 
+#imageHeader
+{
+    padding : 20px 20px;
+    float   : left;
+}
+
 .videoList
 {
     text-align : center;
     display    : block;
-    margin     : 50px 20px;
+    margin-top : 250px;
 }
 
 .videoList iframe
 {
     padding-bottom : 50px;
-}
-
-.playPicture
-{
-    display: none;
-}
-
-#playArea
-{
-    margin-top: 50px;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */

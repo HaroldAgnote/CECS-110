@@ -6,7 +6,7 @@ setInterval(time, 1000);
 
 var date = new Date();
 
-var displayDate =  document.getElementById("todaysDate");
+var displayDate = document.getElementById("todaysDate");
 
 var display = "Today is " + date.toDateString();
 
