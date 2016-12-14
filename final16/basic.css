@@ -1,0 +1,175 @@
+body
+{
+    background-color: #000000;
+    background-image: linear-gradient(to bottom, #000000, #515151);
+    color: #FFFFFF;
+    font-family: Consolas, "Times New Roman", serif;
+}
+#wrapper
+{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #515151;
+}
+header
+{
+    height: 187px;
+    background-image: url("images/logo.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    font-size: 150%;
+}
+h1
+{
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+header span
+{
+    font-size: 0.80em;
+    font-style: italic;
+    color: #FFFFFF;
+    padding-left: 30em;
+}
+nav
+{
+    float: left;
+    width: 150px;
+    padding: 10px;
+    font-size: 125%;
+}
+nav ul
+{
+    list-style-type: none;
+}
+nav a
+{
+    text-decoration: none;
+    color: #5CB85C;
+}
+nav a:link
+{
+
+}
+nav a:visited
+{
+
+}
+nav a:hover
+{
+
+}
+main
+{
+    margin-left: 160px;
+    padding: 10px;
+    background-color: #9DA9B5;
+}
+article
+{
+    color: #000000;
+}
+article header
+{
+    background-color: #FFFFFF;
+    background-image: none;
+    font-size: 100%;
+    padding-left: 10px;
+    height: auto;
+}
+article p
+{
+    margin-top: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F5F5F5;
+}
+aside
+{
+    float: right;
+    width: 15em;
+    padding: 1em;
+    background-color: #9DA9B5;
+    font-size: 80%;
+    box-shadow: 5px 5px 5px 5px #D5D5D5;
+    position: relative;
+    top: -75px;
+    right: 20px;
+}
+figure
+{
+    float: left;
+    width: 225px;
+    padding: 10px;
+    background-color: #EAEAEA;
+}
+figcaption
+{
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, serif;
+    color: #5CB85C;
+}
+figcaption p
+{
+    font-size: 75%;
+}
+
+label
+{
+    float:left;
+    display:block;
+    text-align: right;
+    width: 120px;
+    padding-right: 20px
+}
+input, textarea
+{
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"]
+{
+    margin-left: 165px;
+    display: inline;
+}
+input[type="reset"]
+{
+    display: inline;
+}
+main ul
+{
+
+}
+footer
+{
+    background-color: #515151;
+    text-align: center;
+    font-size: 75%;
+    font-style: italic;
+    padding: 20px;
+}
+footer a
+{
+color: #2AABD2}
+.imageGallery
+{
+    height: 500px;
+    width: auto;
+    margin: 50px;
+}
+.videoGallery
+{
+
+    margin: 50px;
+    padding: 50px;
+    height: 500px;
+}
+
+.buttons input[type="submit"], .buttons input[type="reset"]
+{
+    display: inline;
+}

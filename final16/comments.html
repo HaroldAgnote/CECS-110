@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <title>Programming Pros - Comments</title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "basic.css">
+</head>
+
+<body>
+<div id = "wrapper"> <!---Wrapper--->
+    <header> <!---Header--->
+        <h1>
+            Programming Pros
+        </h1>
+        <span>Building Something New Every Day</span>
+    </header> <!---End Header--->
+
+    <nav> <!---Navigation Links--->
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "about.html">About</a></li>
+            <li><a href = "gallery.html">Gallery</a></li>
+            <li><a href = "comments.html">Comments</a></li>
+        </ul>
+    </nav> <!---End Navigation Links--->
+
+    <main> <!---Main Framework--->
+        <h2>Share your thoughts about Computer Science to the Programming Pros!</h2>
+
+        <form action="commentconfirm.php" method="post">
+            <label for = "myName">Name:</label>
+            <input type="text" name="myName" id="myName" required = "required">
+            <label for = "myEmail">Email:</label>
+            <input type="email" name="myEmail" id="myEmail" required = "required">
+            <label for = "myWebsite">Website:</label>
+            <input type="url" name="myWebsite" id="myWebsite" required = "required">
+            <label for = "myComment">Comment:</label>
+            <textarea id="myComment" rows="10" cols="50"></textarea>
+            <div id="buttons">
+                <input type="submit" name="submitButton" id="submitButton" value="Submit">
+                <input type="reset" name="resetButton" id="resetButton" value="Reset">
+            </div>
+        </form>
+    </main> <!---End Main Framework--->
+
+    <footer>  <!---Footer--->
+              Copyright &copy; 2016 Programming Pros <br>
+        <a href= "mailto:contact@programmingpros.com">contact@programmingpros.com</a>
+    </footer> <!---End Footer--->
+</div>  <!---End Wrapper--->
+</body>
+</html>
